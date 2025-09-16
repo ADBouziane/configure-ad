@@ -33,16 +33,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Azure VM Deployment"/>
-</p>
-<p>
 <strong>Step 1: Spin up VMs in Azure</strong><br />
 Create a Windows Server VM (Domain Controller) and a Windows 10 Client VM within the same virtual network using Azure portal.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Active Directory Deployment"/>
+<img src="images/step1.png" height="80%" width="80%" alt="Active Directory Deployment"/>
+<img src="images/step1.1.png" height="80%" width="80%" alt="Active Directory Deployment"/>
 </p>
 <p>
 <strong>Step 2: Deploy Active Directory</strong><br />
@@ -51,7 +49,7 @@ Install Active Directory Domain Services (AD DS) on the Windows Server VM and pr
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="PowerShell User Creation"/>
+<img src="images/step2.png" height="80%" width="80%" alt="PowerShell User Creation"/>
 </p>
 <p>
 <strong>Step 3: Create & Manage Users</strong><br />
@@ -60,7 +58,7 @@ Use PowerShell to create individual and bulk Active Directory user accounts, the
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Group Policy"/>
+<img src="images/step3.png" height="80%" width="80%" alt="Group Policy"/>
 </p>
 <p>
 <strong>Step 4: Apply Policies & Permissions</strong><br />
@@ -69,10 +67,19 @@ Use Group Policy Management to create and apply policies (e.g., password complex
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Validation"/>
+<img src="images/step4.png" height="80%" width="80%" alt="Validation"/>
 </p>
 <p>
 <strong>Step 5: Account Management & Validation</strong><br />
 Log in as newly created users to confirm they are authenticated by Active Directory and that applied Group Policies are enforced.
 </p>
 <br />
+<p>
+<img src="images/step5.png" height="80%" width="80%" alt="Validation"/>
+</p>
+
+## 🤳 Connect with me
+<a href="https://www.linkedin.com/in/abdel-b-893256362/">
+  <img align="left" alt="Abdel | LinkedIn" width="22px" src="https://img.icons8.com/ios-filled/50/FFFFFF/linkedin.png" />
+</a>
+<a href="https://www.linkedin.com/in/abdel-b-893256362/">LinkedIn</a>
